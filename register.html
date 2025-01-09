@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+<style>
+div.a{
+text-align:center;
+}
+body {
+  background-color: lightblue;
+}
+
+</style>
+</head>
+<body>
+    <div class="container">
+<div class="a">
+        <h1 ><u>Registration Form</u></h1></div>
+        <form action="" method="POST" id="registrationForm">
+            <div class="form-group left-side">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" placeholder="Enter your name" required><br><br>
+<label for="fullname">Father Name:</label>
+<input type="text" id="Father Name" name="Father Name "placeholder="Enter your father name"required><br><br>
+<label for="fullname">Mother Name:</label>
+<input type="text" id="Mother Name" name="Mother Name"placeholder="Enter your Mother name"required><br><br>
+<label for="birthday">Date of Birth:</label>
+<input type="date" id ="birthday" name ="Date of Birth"><br><br>
+<label for="text">Nationality</label>
+<input type="text" name="nationality" placeholder="Enter your Nationality"required><br><br>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+<label for="address">Enter your address:</label>
+<input type="text" id="address" placeholder="Enter your address"required><br><br>
+<label for="age">Age:</label>
+<input type="number" id="number" placeholder="Enter yor age"required><br><br>
+<label for="phoneNumber">Phone Number:</label>
+<input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Enter your phone number" required><br><br>            
+            <div class="form-group">
+                <label>Gender</label>
+                <div class="gender-options">
+                    <label for="male">
+                        <input type="radio" id="male" name="gender" value="male" required>    Male
+                    </label>
+                    <label for="female">
+                        <input type="radio" id="female" name="gender" value="female"> Female
+                    </label>
+                    <label for="others">
+                        <input type="radio" id="others" name="gender" value="others"> Others
+                    </label>
+                </div>
+            </div><br>
+
+ <div class="form-group right-side">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required><br><br>
+
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+<label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="confirm your password" required><br><br>
+
+
+
+            </div>
+
+           
+                          <button type="submit">Register</button>
+        </form>
+    </div>
+    <!-- registration form -->
+
+    <script src="script.js"></script>
+</body>
+</html>
+
